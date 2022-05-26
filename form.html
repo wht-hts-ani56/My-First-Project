@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>FORM</title>
+</head>
+
+<body style="background-color: beige;">
+    <h1 style="text-align: center;">FORM</h1>
+    <CENTER>
+    <fieldset style="width: max-content; background-color: blanchedalmond;">
+        <form style="text-align: center;">
+            <label for="name">NAME</label>
+            <input type="text" id="name" size="59"><br><br>
+            <lable for="class">CLASS</lable>
+            <input type="text">&nbsp;&nbsp;&nbsp;
+            <label for="branch">BRANCH</label>
+            <input type="text"><br><br>
+            <label for="bdaymonth">DOB:</label>
+            <input type="date" id="bdaymonth" name="bdaymonth">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Gender :
+            <label for="Male">Male</label>
+            <input type="radio" id="male" name="Gender" value="Male">
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="Gender" value="Female">
+            <lable for="other">Other</lable>
+            <input type="radio" id="other" name="Gender" value="Other">&nbsp;&nbsp;<br><br>
+
+            <lable for="Nationality">Nationality</lable>
+            <input list="Nationality" name="Nationality" size="10">
+            <datalist id="Nationality">
+                <option value="Indian">
+                <option value="Amarican">
+                <option value="Japanese">
+                <option value="Australian">
+                <option value="Russian">
+            </datalist>
+            Permanent Adress:
+            <textarea name="Permanent Adress" row="3" column="5"></textarea><br><br>
+            <label for="Mother Name">Mother's Name</label>
+            <input type="text" size="14">&nbsp;&nbsp;
+            <lable for="Father Name">Father's Name</lable>
+            <input type="text" size="14"> <br><br>
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+        </form>
+    </fieldset>
+</CENTER>
+</body>
+
+</html>
